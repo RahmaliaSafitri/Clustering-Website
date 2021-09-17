@@ -1,4 +1,4 @@
 # Clustering-Website
 
 To run
-python manage.py runsurver
+python manage.py runserver
