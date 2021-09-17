@@ -1,12 +1,25 @@
 # Clustering-Website
 
 # Running an app locally
-To run an app locally:
 
-1. (optional) create and activate new virtualenv: <br>
-python3.7 -m venv Env <br>
-source Env/bin/activate
+<b>1. Install Library<b>
+<ul>
+  <li>pip install django</li>
+  <li>pip install django-filter</li>
+</ul>
+<b>2.Start Project</b> <br>
+django-admin startproject website <br> <br>
+<b>3.Start App<b> <br>
+python manage.py startapp clustering
 
-2. django manage.py runserver
+
+python manage.py createsuperuser
+
+python manage.py makemigrations
+<br>
+python manage.py migrate
+
+# For run server
+python manage.py runserver
 
 
