@@ -7,7 +7,6 @@ To run an app locally:
 python3.7 -m venv Env <br>
 source Env/bin/activate
 
-2. pip install -r requirements.txt
-3. python model.py
-4. streamlit run webapp.py
+2. django manage.py runserver
+
 
